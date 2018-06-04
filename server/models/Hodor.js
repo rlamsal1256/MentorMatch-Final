@@ -13,7 +13,7 @@ let HodorSchema = new mongoose.Schema(
     }
 );
 
-HodorSchema.methods.hodor = function() {
+HodorSchema.methods.addHodor = function() {
     this.hodor++;
     return this.save()
 };
