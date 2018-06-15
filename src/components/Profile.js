@@ -63,7 +63,7 @@ class Profile extends Component {
                         <div className="profile-header">Skills:
                         </div>
                         {this.state.skills && this.state.skills.map((skill, index) => (
-                            <li className="profile-details" key={index}>
+                            <li className="profile-details no-style" key={index}>
                                 {skill}
                             </li>
                         ))}
@@ -73,7 +73,7 @@ class Profile extends Component {
                         <div className="profile-header"> Interests:
                         </div>
                         {this.state.interests && this.state.interests.map((interest, index) => (
-                            <li className="profile-details" key={index}>
+                            <li className="profile-details no-style" key={index}>
                                 {interest}
                             </li>
                         ))}
