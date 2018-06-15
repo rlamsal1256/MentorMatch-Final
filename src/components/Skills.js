@@ -79,7 +79,7 @@ class Skills extends Component {
 
 
                             <fieldset className='field-set'>
-                                <legend><h3>List the top 3 skills you wanna teach</h3></legend>
+                                <legend><h3>List the top 3 skills you want to teach</h3></legend>
                                 <div className='flex-container-row justify-space-around wrap'>
                                     <CheckBox interest={skills.JAVA} onInputChange={(value, interest) => this.addSkills(value, interest)} />
                                     <CheckBox interest={skills.JAVASCRIPT} onInputChange={(value, interest) => this.addSkills(value, interest)} />
@@ -93,7 +93,7 @@ class Skills extends Component {
 
 
                             <fieldset className='field-set' style={{marginTop: '20px'}}>
-                                <legend><h3>List the top 3 skills you wanna learn</h3></legend>
+                                <legend><h3>List the top 3 skills you want to learn</h3></legend>
                                     <div className='flex-container-row justify-space-around wrap'>
                                     <CheckBox interest={skills.JAVA} onInputChange={(value, interest) => this.addInterests(value, interest)} />
                                     <CheckBox interest={skills.JAVASCRIPT} onInputChange={(value, interest) => this.addInterests(value, interest)} />
