@@ -12,9 +12,7 @@ const url = process.env.MONGODB_URI || "mongodb://localhost:27017/medium";
 
 /** connec to MongoDB datastore */
 try {
-    mongoose.connect(url, {
-        //userMongoClient: true
-    })
+    mongoose.connect(url, {})
 } catch(error) {
 
 }

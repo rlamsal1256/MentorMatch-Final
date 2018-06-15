@@ -23,8 +23,9 @@ class Filter extends Component {
         if (value) {
             this.setState(prevState => ({
                 filters: [...prevState.filters, filter]
-            }));
-            this.applyFilters()
+            }), () => {
+                this.applyFilters()
+            });
         }
     }
 
@@ -41,18 +42,26 @@ class Filter extends Component {
             })
         });
 
-        if (matchedProfiles && matchedProfiles.length > 0) {
+        const uniqueProfiles = [];
+        matchedProfiles.forEach(profile => {
+            if(!uniqueProfiles.includes(profile)) uniqueProfiles.push(profile);
+        });
+
+        console.log(matchedProfiles);
+        console.log(uniqueProfiles);
+
+        if (uniqueProfiles && uniqueProfiles.length > 0) {
             this.setState({
-                matchedProfiles: matchedProfiles
+                matchedProfiles: uniqueProfiles
             })
         }
     }
 
     render() {
-        const profiles = this.state.matchedProfiles.length === 0 ? this.props.users : this.state.matchedProfiles;
+        const profiles = this.state.matchedProfiles;
         return (
-            <div className='flex-container-column'>
-                <div className='filters'>
+            <div className='flex-container-column align-center'>
+                <div className='filters wrap'>
                     <fieldset>
                         <legend><h3>Filter mentors by interests</h3></legend>
                         <div className='flex-container-row justify-space-around'>
@@ -68,25 +77,46 @@ class Filter extends Component {
                 </div>
 
                 <div className='results'>
-                    {profiles.map((matchedProfile, index) => (
-                        <li key={index} className='matched-profile flex-container-row'>
-                            <Link className='flex-container-row' style={{flex: '4'}} to={`/profile/${matchedProfile.id}`}>
-                                <img className="img-circle" src={matchedProfile.picture} alt="profile"/>
-                                <div className='flex-container-column justify-center' style={{ flex: '2', marginLeft: '20px'}}>
-                                    <h3>
-                                        {matchedProfile.name}
-                                    </h3>
-                                    <div>
-                                        {matchedProfile.title}
-                                    </div>
+                    {
+                        profiles.length === 0 ?
+                            (
+                                <div>
+                                    Apply filters to see suggestions
                                 </div>
-                            </Link>
+                            ):
+                            (
+                                <div>
+                                    {profiles.map((matchedProfile, index) => (
+                                        <li key={index} className='matched-profile flex-container-row'>
+                                            <Link className='flex-container-row' style={{flex: '4'}} to={`/profile/${matchedProfile.id}`}>
+                                                <img className="img-circle" src={matchedProfile.picture} alt="profile"/>                                                <div className='flex-container-column justify-center' style={{ flex: '2', marginLeft: '20px'}}>
+                                                    <h3>
+                                                        {matchedProfile.name}
+                                                    </h3>
+                                                    <div>
+                                                        {matchedProfile.title}
+                                                    </div>
+                                                    <div>
+                                                        Skilled in:
+                                                        <ul>
+                                                            {matchedProfile.skills.map((skill, index) => (
+                                                                <li key={index}>
+                                                                    {skill}
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </Link>
 
-                            <div className='flex-container-row align-center' style={{flex: '1'}}>
-                                <RequestButton/>
-                            </div>
-                        </li>
-                    ))}
+                                            <div className='flex-container-row align-center' style={{flex: '1'}}>
+                                                <RequestButton/>
+                                            </div>
+                                        </li>
+                                    ))}
+                                </div>
+                            )
+                    }
                 </div>
             </div>
         );

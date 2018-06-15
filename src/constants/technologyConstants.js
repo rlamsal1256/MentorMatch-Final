@@ -134,5 +134,21 @@ export const data = [
             skills.CSS,
         ]
     },
+    {
+        "id": "109",
+        "email": "rlamsal@wpi.edu",
+        "name": "Rupak Lamsal",
+        "title": "Technologist",
+        "skills": [
+            skills.REACT,
+            skills.MONGO,
+            skills.JAVA,
+            skills.CSS,
+            skills.PYTHON,
+            skills.VUE,
+            skills.HTML,
+        ],
+        "interests": []
+    },
 ];
 
