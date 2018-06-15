@@ -30,7 +30,7 @@ app.use(bodyParser.json());
 app.use(helmet());
 //app.use('/static', express.static(path.join(__dirname, 'static')))
 
-app.use('/api', router);
+app.use('/', router);
 
 /** start server */
 app.listen(port, () => {

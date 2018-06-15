@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="78px" viewBox="0 0 146 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#4D3BFF" offset="0%"></stop>
+            <stop stop-color="#0C0086" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sign-In" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bout-youSign-In-Copy-2" transform="translate(-869.000000, -91.000000)">
+            <g id="Group-3" transform="translate(868.000000, 88.000000)">
+                <g id="Group-Copy" transform="translate(0.000000, 58.222656)" fill="#000000" font-family="SFProText-Bold, SF Pro Text" font-size="22" font-weight="bold" letter-spacing="-0.55">
+                    <text id="Mentor-Match">
+                        <tspan x="0" y="21.7226562">Mentor Match</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(45.500000, 0.000000)">
+                    <rect id="Rectangle-3-Copy-4" fill="url(#linearGradient-1)" x="3.17567568" y="3.22265625" width="12.9942401" height="39" rx="6.49712007"></rect>
+                    <rect id="Rectangle-3-Copy-5" fill="url(#linearGradient-1)" x="41" y="3.22265625" width="12.9942401" height="39" rx="6.49712007"></rect>
+                    <rect id="Rectangle-3-Copy-6" fill="#4D3BFF" transform="translate(18.774464, 18.798340) rotate(-45.000000) translate(-18.774464, -18.798340) " x="12.2773438" y="-0.701660156" width="12.9942401" height="39" rx="6.49712007"></rect>
+                    <rect id="Rectangle-3-Copy-7" fill="#4D3BFF" transform="translate(38.458546, 18.798340) rotate(-315.000000) translate(-38.458546, -18.798340) " x="31.9614258" y="-0.701660156" width="12.9942401" height="39" rx="6.49712007"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

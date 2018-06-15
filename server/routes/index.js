@@ -1,5 +1,5 @@
-const hodor = require('./hodor');
+const user = require('./user');
 
 module.exports = (router) => {
-    hodor(router);
+    user(router);
 };

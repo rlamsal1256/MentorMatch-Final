@@ -7,7 +7,6 @@ import App from './App.js';
 import registerServiceWorker from './registerServiceWorker';
 import { store, history } from './redux/store';
 
-
 render((
     <Provider store={store}>
         <Router history={history}>

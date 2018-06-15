@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import hodor from './reducers/hodor';
+import authUser from './reducers/authUser';
+import users from './reducers/users';
 import { routerReducer } from 'react-router-redux';
 
 export default combineReducers({
-    hodor,
+    authUser,
+    users,
     router: routerReducer
 })

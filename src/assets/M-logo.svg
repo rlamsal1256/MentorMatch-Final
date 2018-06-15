@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="78px" viewBox="0 0 146 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-21.4623473%" y1="50%" x2="125.669223%" y2="21.4946546%" id="linearGradient-1">
+            <stop stop-color="#FF1448" offset="0%"></stop>
+            <stop stop-color="#FE7157" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sign-In" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bout-youSign-In-Copy-2" transform="translate(-647.000000, -91.000000)">
+            <g id="Group" transform="translate(646.000000, 91.000000)">
+                <text id="Mentor-Match" font-family="SFProText-Bold, SF Pro Text" font-size="22" font-weight="bold" letter-spacing="-0.55" fill="#525252">
+                    <tspan x="0" y="76.7226562">Mentor Match</tspan>
+                </text>
+                <path d="M89.5350666,1.4435484 C90.6021969,0.675226401 91.9118488,0.22265625 93.3272043,0.22265625 C96.9154646,0.22265625 99.8243243,3.13151599 99.8243243,6.71977632 L99.8243243,32.7255362 C99.8243243,36.3137965 96.9154646,39.2226562 93.3272043,39.2226562 C89.7389439,39.2226562 86.8300842,36.3137965 86.8300842,32.7255362 L86.8300842,22.1013486 L78.7393432,30.1920895 C77.4337748,31.4976579 75.7108128,32.1314413 74,32.0934397 C72.2891872,32.1314413 70.5662252,31.4976579 69.2606568,30.1920895 L61.1699158,22.1013486 L61.1699158,32.7255362 C61.1699158,36.3137965 58.2610561,39.2226562 54.6727957,39.2226562 C51.0845354,39.2226562 48.1756757,36.3137965 48.1756757,32.7255362 L48.1756757,6.71977632 C48.1756757,3.13151599 51.0845354,0.22265625 54.6727957,0.22265625 C56.0881512,0.22265625 57.3978031,0.675226401 58.4649334,1.4435484 C59.0391495,1.74242914 59.5780859,2.13288803 60.060123,2.61492508 L74,16.5548021 L87.939877,2.61492508 C88.4219141,2.13288803 88.9608505,1.74242914 89.5350666,1.4435484 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="51px" viewBox="0 0 321 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Buttons/LG/Primary/Normal Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FE234A" offset="0%"></stop>
+            <stop stop-color="#FE5F54" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FD3C71" offset="0%"></stop>
+            <stop stop-color="#FE6761" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sign-In" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bout-youSign-In-Copy-2" transform="translate(-164.000000, -529.000000)">
+            <g id="Buttons/LG/Primary/Normal-Copy" transform="translate(164.750000, 529.390625)">
+                <rect id="Background-Color" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" x="0.5" y="0.5" width="319" height="49" rx="3"></rect>
+                <text id="Get-Started" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="114.063965" y="31">Get Started</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
