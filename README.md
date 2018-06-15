@@ -1,5 +1,5 @@
-Full Stack MERN Template 
+Mentor Match for Hackathon
 ------------------------
 
 
-- Hodor version
+- Final version
