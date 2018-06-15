@@ -39,10 +39,12 @@ class Skills extends Component {
         console.log('creating profile');
         console.log('skills', this.state.skills);
         console.log('interests ', this.state.interests);
+        console.log(this.props.user);
 
         const user = {
             'id': this.state.id,
             'title': this.state.title,
+            'picture': this.props.user.provider_pic,
             'email': this.props.user.email,
             'name': this.props.user.name,
             'skills': this.state.skills,

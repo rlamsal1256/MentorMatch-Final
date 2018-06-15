@@ -12,6 +12,7 @@ class Profile extends Component {
             title: '',
             skills: [],
             interests: [],
+            picture: '',
             mentorRequested: false
         };
     }
@@ -22,13 +23,13 @@ class Profile extends Component {
         console.log(this.props.users);
         const profile = this.props.users.filter(profile => parseInt(profile.id, 10) === id);
         console.log('NAME', this.state.name);
-        console.log(profile);
 
         if (profile && profile.length > 0) {
             this.setState({
                 name: profile[0].name,
                 title: profile[0].title,
                 email: profile[0].email,
+                picture: profile[0].picture,
                 skills: profile[0].skills,
                 interests: profile[0].interests
             });
@@ -47,8 +48,9 @@ class Profile extends Component {
                 <img className='logo' src={require('../assets/M-logo.svg')} alt="logo"/>
                 <div className='profile-flex'>
                     <div className="image-cropper">
-                        <img src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg"
-                             className="rounded"/>
+                        {this.state.picture ? <img className="rounded" src={this.state.picture}/> :
+                            <img src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg"
+                                 className="rounded"/>}
                     </div>
                     <div className="profile-header">
                         {this.state.name ? this.state.name : 'Kevin'}
@@ -86,11 +88,12 @@ class Profile extends Component {
                                     <img src={require('../assets/Button-FindMatch.svg')} alt="button-next"
                                     />
                                 </Link>
-                            ):
+                            ) :
                             (
-                                <input className={this.state.mentorRequested ? 'request-done-button-large' : 'request-button-large'}
-                                       type="button" onClick={() => this.requestMentor()}
-                                       value={this.state.mentorRequested ? 'Message Sent' : 'Request a mentor'}
+                                <input
+                                    className={this.state.mentorRequested ? 'request-done-button-large' : 'request-button-large'}
+                                    type="button" onClick={() => this.requestMentor()}
+                                    value={this.state.mentorRequested ? 'Message Sent' : 'Request a mentor'}
                                 />
                             )
                         }

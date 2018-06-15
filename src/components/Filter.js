@@ -71,7 +71,7 @@ class Filter extends Component {
                     {profiles.map((matchedProfile, index) => (
                         <li key={index} className='matched-profile flex-container-row'>
                             <Link className='flex-container-row' style={{flex: '4'}} to={`/profile/${matchedProfile.id}`}>
-                                <img className="img-circle" src={require('../assets/cat.jpeg')} alt="profile"/>
+                                <img className="img-circle" src={matchedProfile.picture} alt="profile"/>
                                 <div className='flex-container-column justify-center' style={{ flex: '2', marginLeft: '20px'}}>
                                     <h3>
                                         {matchedProfile.name}

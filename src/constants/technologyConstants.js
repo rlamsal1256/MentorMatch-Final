@@ -13,9 +13,10 @@ export const skills = {
 export const data = [
     {
         "id": "101",
-        "email": "hello@world.edu",
-        "name": "Goldilocks Greg",
-        "title": "Software Developer",
+        "picture": `${require('../assets/rlamsal.jpeg')}`,
+        "email": "rlamsal@lm.com",
+        "name": "Rupak Lamsal",
+        "title": "Associate Software Developer",
         "skills": [
             skills.JAVASCRIPT,
             skills.HTML
@@ -27,9 +28,10 @@ export const data = [
     },
     {
         "id": "102",
-        "email": "albie.johns@gmail.com",
-        "name": "Albie Johns",
-        "title": "Senior Software Developer",
+        "picture": `${require('../assets/lvenkatraman.jpeg')}`,
+        "email": "lvenkatraman@gmail.com",
+        "name": "Lakshmi Venkatraman",
+        "title": "Principal Software Developer",
         "skills": [
             skills.JAVA,
             skills.JAVASCRIPT
@@ -41,6 +43,7 @@ export const data = [
     },
     {
         "id": "103",
+        "picture": `${require('../assets/dlatta.jpeg')}`,
         "email": "tapple@wpi.edu",
         "name": "Tom Apple",
         "title": "Principal Software Developer",
@@ -50,11 +53,13 @@ export const data = [
         ],
         "interests": [
             skills.JAVA,
+            skills.CSS,
             skills.CSS
         ]
     },
     {
         "id": "104",
+        "picture": `${require('../assets/klee.jpeg')}`,
         "email": "klee@lm.com",
         "name": "Kevin Lee",
         "title": "Software Developer",
@@ -70,6 +75,7 @@ export const data = [
     },
     {
         "id": "105",
+        "picture": `${require('../assets/andy.jpeg')}`,
         "email": "azhong@lm.com",
         "name": "Andy Zhong",
         "title": "Go For Coder",
@@ -84,6 +90,7 @@ export const data = [
     },
     {
         "id": "106",
+        "picture": `${require('../assets/khart.jpeg')}`,
         "email": "khart@lm.com",
         "name": "Kali Hart",
         "title": "Go For Coder",
@@ -98,6 +105,7 @@ export const data = [
     },
     {
         "id": "107",
+        "picture": `${require('../assets/cat.jpeg')}`,
         "email": "scmatro@lm.com",
         "name": "Sam Ciamaratiro",
         "title": "Intern",
@@ -113,6 +121,7 @@ export const data = [
     },
     {
         "id": "108",
+        "picture": `${require('../assets/sgupta.jpeg')}`,
         "email": "sgupoata@lm.com",
         "name": "Srishti Gupta",
         "title": "Software Developer",
