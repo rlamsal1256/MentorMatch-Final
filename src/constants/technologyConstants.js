@@ -16,10 +16,15 @@ export const data = [
         "picture": `${require('../assets/rlamsal.jpeg')}`,
         "email": "rlamsal@lm.com",
         "name": "Rupak Lamsal",
-        "title": "Associate Software Developer",
+        "title": "Technologist",
         "skills": [
-            skills.JAVASCRIPT,
-            skills.HTML
+            skills.REACT,
+            skills.MONGO,
+            skills.JAVA,
+            skills.CSS,
+            skills.PYTHON,
+            skills.VUE,
+            skills.HTML,
         ],
         "interests": [
             skills.JAVA,
@@ -133,22 +138,6 @@ export const data = [
             skills.JAVA,
             skills.CSS,
         ]
-    },
-    {
-        "id": "109",
-        "email": "rlamsal@wpi.edu",
-        "name": "Rupak Lamsal",
-        "title": "Technologist",
-        "skills": [
-            skills.REACT,
-            skills.MONGO,
-            skills.JAVA,
-            skills.CSS,
-            skills.PYTHON,
-            skills.VUE,
-            skills.HTML,
-        ],
-        "interests": []
-    },
+    }
 ];
 
