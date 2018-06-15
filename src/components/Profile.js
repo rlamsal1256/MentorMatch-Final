@@ -48,7 +48,7 @@ class Profile extends Component {
                 <div className='profile-flex'>
                     <div className="image-cropper">
                         <img src="http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg"
-                             className="rounded"/>
+                             className="rounded" alt="prof"/>
                     </div>
                     <div className="profile-header">
                         {this.state.name ? this.state.name : 'Kevin'}
